@@ -1,6 +1,10 @@
 {
   "version": 2,
   "projects": {
+    "backend-server": "apps/backend-server",
+    "mobile-client": "apps/mobile-client",
+    "mobile-client-e2e": "apps/mobile-client-e2e",
+    "shared-ui-layout": "libs/shared-ui-layout",
     "web-client": "apps/web-client",
     "web-client-e2e": "apps/web-client-e2e"
   }
