@@ -1,94 +1,118 @@
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
+<h3 align="center">Evolving Url's</h3>
 
-# EvolvingUrlsMonorepo
+<div align="center">
 
-This project was generated using [Nx](https://nx.dev).
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/Evolving-Software/evolving-urls.svg)](https://github.com/Evolving-Software/evolving-urls/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Evolving-Software/evolving-urls.svg)](https://github.com/Evolving-Software/evolving-urls/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+</div>
 
-🔎 **Smart, Fast and Extensible Build System**
+---
 
-## Adding capabilities to your workspace
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+## 📝 Table of Contents
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-Below are our core plugins:
+## 🧐 About <a name = "about"></a>
 
-- [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
+This is a cross platform URL shortener that allows you to shorten your long URLs.
 
-There are also many [community plugins](https://nx.dev/community) you could add.
+It is open source and is hosted on GitHub.
 
-## Generate an application
+You can self host it on your own server or use a service like [Cloudflare](https://www.cloudflare.com/), [AWS](https://aws.amazon.com/), or [Google Cloud](https://cloud.google.com/).
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-> You can use any of the plugins above to generate applications as well.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+### Prerequisites
 
-## Generate a library
+What things you need to install the software and how to install them.
 
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
+```
+Give examples
+```
 
-> You can also use any of the plugins above to generate libraries as well.
+### Installing
 
-Libraries are shareable across libraries and applications. They can be imported from `@evolving-urls-monorepo/mylib`.
+A step by step series of examples that tell you how to get a development env running.
 
-## Development server
+Say what the step will be
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+```
+Give the example
+```
 
-## Code scaffolding
+And repeat
 
-Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
+```
+until finished
+```
 
-## Build
+End with an example of getting some data out of the system or using it for a little demo.
 
-Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 🔧 Running the tests <a name = "tests"></a>
 
-## Running unit tests
+Explain how to run the automated tests for this system.
 
-Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+### Break down into end to end tests
 
-Run `nx affected:test` to execute the unit tests affected by a change.
+Explain what these tests test and why
 
-## Running end-to-end tests
+```
+Give an example
+```
 
-Run `nx e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+### And coding style tests
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+Explain what these tests test and why
 
-## Understand your workspace
+```
+Give an example
+```
 
-Run `nx graph` to see a diagram of the dependencies of your projects.
+## 🎈 Usage <a name="usage"></a>
 
-## Further help
+Add notes about how to use the system.
 
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+## 🚀 Deployment <a name = "deployment"></a>
 
+Add additional notes about how to deploy this on a live system.
 
+## ⛏️ Built Using <a name = "built_using"></a>
 
-## ☁ Nx Cloud
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-### Distributed Computation Caching & Distributed Task Execution
+## ✍️ Authors <a name = "authors"></a>
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
+See also the list of [contributors](https://github.com/Evolving-Software/evolving-urls/contributors) who participated in this project.
 
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-Visit [Nx Cloud](https://nx.app/) to learn more.
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
